@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionString", "ConnectionString\ConnectionString.csproj", "{7A8BCAAF-2DE1-48B1-B98C-8E5578986299}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServerConnector", "ConnectionString\SQLServerConnector.csproj", "{7A8BCAAF-2DE1-48B1-B98C-8E5578986299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperConnector", "DapperConnector\DapperConnector.csproj", "{56949E95-EAB4-476A-9293-F598350D208C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7A8BCAAF-2DE1-48B1-B98C-8E5578986299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A8BCAAF-2DE1-48B1-B98C-8E5578986299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A8BCAAF-2DE1-48B1-B98C-8E5578986299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56949E95-EAB4-476A-9293-F598350D208C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56949E95-EAB4-476A-9293-F598350D208C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56949E95-EAB4-476A-9293-F598350D208C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56949E95-EAB4-476A-9293-F598350D208C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
